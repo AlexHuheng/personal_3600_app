@@ -1,0 +1,4 @@
+1、cmd中进入文件存放目录
+2、编译Defs.thrift：thrift-0.12.0.exe -r --gen cpp Defs.thrift
+3、编译IH2102_Host_Invoke.thrift：thrift-0.12.0.exe -r --gen cpp H2103_Host_Invoke.thrift
+4、编译IH2102_Slave_Invoke.thrift：thrift-0.12.0.exe -r --gen cpp H2103_Slave_Invoke.thrift
